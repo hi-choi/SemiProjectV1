@@ -1,0 +1,39 @@
+ul{
+    text-align:center;
+    border-bottom-width:thick;
+    border-bottom-style: solid;
+    border-bottom-color: dimgray;
+    padding-bottom:7px;
+}
+li{
+    display:inline;
+    margin-right:50px;
+
+
+}
+
+#container{
+    min-height:500px;
+    border-bottom-width:thick;
+    border-bottom-style: solid;
+    border-bottom-color: dimgray;
+
+}
+footer{
+    text-align:center;
+}
+
+#signup{
+    text-align:center;
+}
+
+#login{
+    text-align:center;
+}
+#myinfo{
+    text-align:center;
+}
+
+.label{
+    font-weight: bold;
+}
