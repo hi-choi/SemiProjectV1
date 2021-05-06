@@ -34,6 +34,7 @@ header {
     padding:5px;
     font-weight:bold;
     margin-left:20px;
+
 }
 
 /* header 영역의 검색창 */
@@ -64,6 +65,22 @@ nav {
     height:35px;
     background-color:black;
     text-align:center;
+    color:white;
+}
+nav ol{
+    height:35px;
+    color:white;
+    font-weight:bold;
+    text-align:center;
+
+
+
+}
+nav li {
+    float:left;
+    padding:7px;
+    margin-left:60px;
+
 }
 .lgmenu ol{
     color:white;
