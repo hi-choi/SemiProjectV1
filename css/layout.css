@@ -1,0 +1,332 @@
+#wrap{
+    margin:0 auto;
+    width:1150px;
+
+}
+/* header 영역 */
+header {
+    min-height:125px;
+}
+
+/* header 영역의 로고 */
+.hlogo {
+    background-color:purple;
+    width: 225px;
+    min-height:125px;
+    float:left;
+
+}
+
+/* header 영역의 우측 상단 메뉴 */
+.hArea {
+    background-color:#85C556;
+    width:925px;
+    min-height:125px;
+    float:right;
+}
+.hArea ol{
+    padding:5px;
+    float:right;
+
+}
+.hArea li{
+    float:left;
+    padding:5px;
+    font-weight:bold;
+    margin-left:20px;
+}
+
+/* header 영역의 검색창 */
+.searchBox{
+    margin-top:45px;
+    margin-left:70px;
+}
+.scBox{
+    border-width:4px;
+    border-style:solid;
+    border-color: green;
+    width:460px;
+    height:35px;
+}
+.scButton{
+    color:white;
+    background-color:green;
+    width:100px;
+    height:35px;
+    border-width:4px;
+    border-color:green;
+    margin-top:2px;
+
+}
+/* nav 영역 */
+nav {
+    clear:both;
+    height:35px;
+    background-color:black;
+    text-align:center;
+}
+nav ol{
+    color:white;
+    font-weight:bold;
+    text-align:center;
+    margin:0;
+    padding:0;
+
+
+}
+nav li{
+    display:inline-block;
+    padding:7px 20px;
+
+}
+
+
+/* main 영역 */
+main{
+    /*임시 값 나중에 지울 것*/
+    min-width:500px;
+    display:grid;
+    grid-template-columns: 225px,915px;
+    grid-gap:10px;
+}
+
+/* aside 영역 */
+aside{
+    grid-column: 1;
+    width:225px;
+    float:left;
+    background-color:yellow;
+}
+
+aside .loginArea{
+    display:grid;
+    grid-template-rows:auto;
+
+
+}
+aside .loginArea ol{
+    grid-row:1;
+margin-top:20px;
+
+
+}
+
+aside hr{
+    grid-row:2;
+    margin:0;
+}
+aside .loginArea li{
+    float:left;
+    text-align:center;
+    font-size:13px;
+
+    padding:5px;
+
+}
+
+aside noticeArea{
+    display:grid;
+    grid-template-rows: auto;
+}
+
+.nsTitle{
+    grid-row:1;
+    background-color:black;
+    color:white;
+    display:block;
+    font-weight: bold;
+    padding:3px;
+    margin:5px;
+}
+.nList ol{
+
+
+}
+
+.nList li{
+    margin-left:20px;
+    font-size:14px;
+    line-height: 25px;
+}
+.nsContent{
+    grid-row:2;
+    margin:5px;
+    padding:0px 5px;
+
+}
+/* content 영역 */
+
+.contentArea{
+
+    grid-column:2;
+    min-width:915px;
+    float:right;
+    background-color:orange;
+    min-height:500px;
+    display:grid;
+    grid-template-rows: 3;
+
+}
+
+/* content-banner */
+.banner{
+    grid-row:1;
+    background-color:#A9F9B9;
+    height:350px;
+    margin:20px 10px;
+    padding-left:20px;
+    display:grid;
+    grid-template-rows: 100px,300px;
+
+}
+
+.banner f1{
+    grid-row: 1;
+    font-size:40px;
+    font-weight:bold;
+    padding-top:10px;
+
+}
+
+.bText{
+    grid-row;2;
+    margin-left:10px;
+    margin-top:-180px;
+    line-height: 25px;
+    font-weight:bold;
+
+
+}
+
+.Info{
+    display:grid;
+    grid-row:2;
+    grid-template-columns:50%, 50%;
+    grid-gap: 10px;
+    padding:10px;
+}
+/* content-최신정보 */
+.newInfo{
+    grid-column: 1;
+
+}
+.newInfoTitle{
+    background-color: #7E4FDF;
+    font-weight:bold;
+    height:25px;
+    padding-top:7px;
+}
+.newInfoContent{
+    background-color:white;
+    padding : 10px;
+    line-height:25px;
+    height:230px;
+}
+
+
+/* content-사용기/설치기 */
+.review{
+   grid-column: 2;
+}
+.reviewTitle{
+    background-color: #9FDE44;
+    font-weight:bold;
+    height:25px;
+    padding-top:7px;
+
+}
+.reviewContent{
+    background-color:white;
+    height:230px;
+    padding : 10px;
+    line-height:25px;
+}
+
+.galary{
+     grid-row;3;
+    display:grid;
+    grid-template-rows:auto;
+}
+.galaryTitle{
+    grid-row: 1;
+    background-color:mediumvioletred;
+    height:25px;
+    margin:10px 10 0 10px;
+    color:white;
+    font-weight:bold;
+    padding:5px;
+
+}
+.galaryContent{
+    grid-row:2;
+    background-color:beige;
+    margin:0px 10px 10px 10px;
+
+}
+
+.galaryContent ol{
+
+}
+
+.galaryContent li{
+    float:left;
+    padding:10px;
+
+}
+
+.image{
+    width:150px;
+    height:150px;
+    background-color:white;
+    border-style:dotted;
+    border-color: black;
+    border-width: 1px;
+}
+
+.galaryContent li p{
+    text-align:center;
+
+}
+footer {
+    clear:left;
+    min-height:125px;
+}
+footer ol{
+    height:35px;
+    background-color:darkblue;
+    color:white;
+    font-weight:bold;
+    text-align:center;
+
+
+
+}
+footer li {
+    float:left;
+    padding:7px;
+    margin-left:60px;
+
+}
+footer li:first-child{
+    margin-left:100px;
+}
+.flogo{
+    clear:left;
+    background-color:purple;
+    width: 225px;
+    min-height:125px;
+    float:left;
+}
+.fArea{
+    background-color:#5F8D3D;
+    width:925px;
+    min-height:125px;
+    float:right;
+}
+.fArea span {
+    float:right;
+    text-align:right;
+    font-weight:bold;
+    margin-top:70px;
+    margin-right:20px;
+}
