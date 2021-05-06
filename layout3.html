@@ -48,17 +48,26 @@
         <main>
             <aside>
                 <div class="loginArea">
-                    <ol>
+                    <ol class="lgmenu">
                         <li>회원가입</li>
                         <li>아이디찾기</li>
                         <li>비밀번호찾기</li>
                     </ol>
                     <hr>
-                    <div loginArea2></div>
-                    <span> 보안접속 ON | <input type="checkbox">자동로그인</span>
-                    <input type="text">
-                    <input type="password">
-                    <button type="button">로그인</button>
+                        <ul class="atlogin">
+                            <li>보안접속 ON |</li>
+                            <li><input type="checkbox">자동로그인</li>
+                        </ul>
+                        <div class="Login">
+                        <div class="area1">
+                             <input type="text" id="id" placeholder="아이디">
+                            <input type="password" id="pwd" placeholder="비밀번호">
+                        </div>
+                        <div class="area2">
+                            <button type="button" id="lbt">로그인</button>
+                        </div>
+                        </div>
+
                 </div>
                 <div class="noticeArea">
                     <span class="nsTitle">공지사항</span>

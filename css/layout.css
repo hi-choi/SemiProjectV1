@@ -65,7 +65,7 @@ nav {
     background-color:black;
     text-align:center;
 }
-nav ol{
+.lgmenu ol{
     color:white;
     font-weight:bold;
     text-align:center;
@@ -74,13 +74,49 @@ nav ol{
 
 
 }
-nav li{
+.lgmenu li{
     display:inline-block;
     padding:7px 20px;
 
 }
 
+.atlogin ul{
 
+}
+
+.atlogin li{
+    font-weight: bold;
+    font-size:15px;
+
+}
+
+.login{
+    display:grid;
+    grid-template-columns: auto;
+    grid-column-gap: 3px;
+
+
+}
+.area1{
+    grid-column:1;
+    padding-left:10px;
+
+}
+.area2{
+   grid-column:2;
+    padding-right:50px;
+}
+#id{
+    width:110px;
+    margin-bottom:7px;
+}
+#pwd{
+    width:110px;
+}
+#lbt{
+     width:90px;
+    height:55px;
+}
 /* main 영역 */
 main{
     /*임시 값 나중에 지울 것*/
@@ -96,6 +132,8 @@ aside{
     width:225px;
     float:left;
     background-color:yellow;
+    height:470px;
+
 }
 
 aside .loginArea{
@@ -114,6 +152,8 @@ margin-top:20px;
 aside hr{
     grid-row:2;
     margin:0;
+    width:225px;
+
 }
 aside .loginArea li{
     float:left;
@@ -125,11 +165,13 @@ aside .loginArea li{
 }
 
 aside noticeArea{
+
     display:grid;
     grid-template-rows: auto;
 }
 
 .nsTitle{
+
     grid-row:1;
     background-color:black;
     color:white;
@@ -137,6 +179,7 @@ aside noticeArea{
     font-weight: bold;
     padding:3px;
     margin:5px;
+    margin-top:130px;
 }
 .nList ol{
 
