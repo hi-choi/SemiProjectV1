@@ -32,13 +32,13 @@ header{
 
 .hUl{
     list-style-type: none;
-    margin-left:430px;
+    margin-left:480px;
     margin-top:0px;
 }
 .hUl li{
     float:left;
     font-weight:bold;
-    margin : 5px;
+    padding : 5px;
 }
 
 /* nav 영역 */
@@ -50,6 +50,10 @@ nav {
     padding-top:10px;
     padding-left:20px;
 }
+nav input {border:1px solid black; padding: 5px; width:325px;}
+nav select {padding:5px; width:150px; text-decoration:underline; font-size:13px;}
+nav button {padding:5px; width:125px; background-color:gray;
+                        color:white; font-size:14px; border-style:none; border-radius:10px;}
 /* main 영역 */
 main {
     min-height:500px;
@@ -95,11 +99,12 @@ main {
     text-align:center;
     margin-top:100px;
 }
-.squareArea{
-    border-style:solid;
+.squreArea{
     width:200px;
-    float:left;
+    float:right;
     padding-left:300px;
+    margin-left:300px;
+    padding-top:70px;
 }
 .squre {
     display:inline-block;
@@ -137,7 +142,7 @@ hr {
 
 /* footer 영역 */
 footer {
-    min-height:100px;
+    min-height:150px;
 }
 
 .fMenu {
