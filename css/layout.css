@@ -195,7 +195,7 @@ aside noticeArea{
     display:block;
     font-weight: bold;
     padding:3px;
-    margin:5px;
+
     margin-top:130px;
 }
 .nList ol{
@@ -206,7 +206,11 @@ aside noticeArea{
 .nList li{
     margin-left:20px;
     font-size:14px;
-    line-height: 25px;
+    height:20px;
+    background:url(/img/pinwheel.png) no-repeat top left;
+    padding-left:20px; margin-left: 5px;
+    margin-top: 5px;
+
 }
 .nsContent{
     grid-row:2;
@@ -245,6 +249,7 @@ aside noticeArea{
     font-size:40px;
     font-weight:bold;
     padding-top:10px;
+    font-family: Garamond;
 
 }
 
